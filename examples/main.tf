@@ -4,8 +4,8 @@ module "terraform_alicloud_idcos" {
     source = "../terraform_alicloud_test"
     #version = ""
     Region = "cn-hangzhou"
-    accessKey = "LTAI5tMdEpjabn4ULwr6bD6q"
-    secretKey = "lSCy0ehqS5V26loipJkiLrdmOYpRTs"
+    accessKey = "AK"
+    secretKey = "SK"
 #vpc相关
     vpcName = "terraform_ali_modules"
     cidrVpcBlock = "172.16.0.0/12"
